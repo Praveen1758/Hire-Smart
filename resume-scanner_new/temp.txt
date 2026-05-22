@@ -1,0 +1,21 @@
+Test -- http://127.0.0.1:5000/recommend/jobs/697c709db78ce0af74bbd03d
+
+
+
+method get http://localhost:5000/recommend/jobs/<user_id>
+
+
+
+
+
+--Steps
+
+open server folder in command prompt
+then install required libraries -- npm i
+then activate database server -- nodemon
+
+then open flask folder in command prompt
+then create virtual environment -- py -m venv env
+then activate virtual environment -- env\Scripts\activate
+then install required libraries -- pip install -r requirements.txt
+then run flask server -- python app.py
